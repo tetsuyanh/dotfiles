@@ -1,0 +1,12 @@
+export DBD_MYSQL_CFLAGS=-I/usr/local/Cellar/mysql@5.6/5.6.43/bin/mysql
+export DBD_MYSQL_LIBS="-L/usr/local/Cellar/mysql@5.6/5.6.43/bin/mysql -lmysqlclient"
+export DBD_MYSQL_EMBEDDED=
+export DBD_MYSQL_CONFIG=/usr/local/Cellar/mysql@5.6/5.6.43/bin/mysql_config
+export DBD_MYSQL_NOCATCHSTDERR=0
+export DBD_MYSQL_NOFOUNDROWS=0
+export DBD_MYSQL_SSL=
+export DBD_MYSQL_TESTDB=test
+export DBD_MYSQL_TESTHOST=localhost
+export DBD_MYSQL_TESTPASSWORD=
+export DBD_MYSQL_TESTPORT=3306
+export DBD_MYSQL_TESTUSER=root
