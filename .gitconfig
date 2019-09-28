@@ -69,5 +69,9 @@
 	trustExitCode = true
 [commit]
 	template = /Users/tetsuya.harada/.stCommitMsg
+
 [http "https://gopkg.in"]
 	followRedirects = true
+
+[http]
+	sslVerify = true

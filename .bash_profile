@@ -8,6 +8,7 @@ PATH="$HOME/.ndenv/bin:$PATH"
 eval "$(ndenv init -)"
 
 PATH="$HOME/.goenv/bin:$PATH"
+export GOENV_DISABLE_GOPATH=1
 eval "$(goenv init -)"
 
 PATH="$HOME/.rbenv/bin:$PATH"
@@ -26,3 +27,4 @@ PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
 export PATH
+eval "$(plenv init -)"

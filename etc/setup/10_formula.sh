@@ -41,6 +41,7 @@ fi
 [[ ! -e /usr/local/Cellar/postgresql@9.6 ]] && brew install postgresql@9.6
 [[ ! -e /usr/local/Cellar/memcached ]] && brew install memcached
 [[ ! -e /usr/local/Cellar/mongodb ]] && brew install mongodb
+[[ ! -e /usr/local/Cellar/redis ]] && brew install redis
 [[ ! -e /usr/local/Cellar/hugo ]] && brew install hugo
 [[ ! -e /usr/local/Cellar/circleci ]] && brew install circleci
 
